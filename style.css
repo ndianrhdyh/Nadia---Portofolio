@@ -146,10 +146,12 @@ body.dark-mode {
 }
 
 .hero-about {
+  margin-top: 10px;
   margin-bottom: 180px;
 }
 
 .social {
+  margin-top: 10px;
   margin-bottom: 20px;
   display: flex;
   gap: 10px;
@@ -488,6 +490,10 @@ a.contact-item {
     margin-bottom: 0;
   }
 
+  .footer-bottom{
+    padding: 20px 0 30px 0;
+  }
+
   nav {
     display: none; /* sembunyikan navbar atas */
   }
@@ -535,3 +541,4 @@ a.contact-item {
     color: var(--primary);
   }
 }
+
